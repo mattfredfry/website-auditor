@@ -1,1 +1,458 @@
-Hello world!
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action
+      <div class="jumbotron">
+        <h1>Theme example</h1>
+        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+      </div>
+      -->
+
+    <div class="page-header">
+        <h1>Website Audit</h1>
+        <p class="lead">Checkmark is good, X-mark is bad.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-9">
+          <div class="list-group report-card">
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                page speed score above 80 (https://developers.google.com/speed/pagespeed/insights)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no broken images (http://www.internetmarketingninjas.com/broken-links-tool/)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                works in all browsers (browserstack.com or litmus)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no broken links (http://validator.w3.org/checklink)immediately obvious what you sell / do
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                easy to determine whether or not you provide a solution for my problem (google calls it transparency)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                clear explanation of specifically how your product/service will solve my problem
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no "we we" filler copy about HOW (customer service, speed of delivery, experience, etc), focus on WHAT
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                validators / trustworthiness indicators, could be testimonies, BBB / Verisgn logos, etcprominent on main pages or landing page
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                used consistently from page to page
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                duplicated above and below the foldif i want what you sell, is it clear what do i have to do next
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                i can get answers to my specific questions or issues
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                i can complete my taskno unnecessary questions, or compelling explanation for why it's needed
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                submit button that includes a benefit (not the word "submit")
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                assurance of privacy and obvious link to privacy policy
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                non-intimidating length
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                form orientation is top down, not left to right
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                tab index makes form easy to fill and submit with keyboard
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                auto-populate when I've already given you info or you already know it
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                fields fit the correct width of expected answer
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                labels on each field indicate required formatno more than three steps
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no registration required
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no captcha (or easy captcha)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                checkout security is clearly communicated to visitor 
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                on-page for targeted keywords (A+ on SEOmoz On-Page Report Card)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                unique content written specifically for meta description with CTA for search resultsless than 7 items in main nav
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                logical structure, high level pages make sense
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                nav items clearly indicate what i will find on those page
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                straightforward navigation
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                easy to get back if I go to the wrong pagezero typos anywhere
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                compelling, concise writing
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                good use of catchy / descriptive headlines and subheads 
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no overly-technical "we-we" jargonheadline / title, benefit oriented and keyword rich
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                variety of product images with multiple angles
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                images highlight key benefits or options
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                video for each product (optional)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                video as default image (optional)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                well written product description
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                product description includes uses customer insight from product reviews
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                obvious customer reviews / testimonials
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                stock availability messaging
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                shipping charges for my location
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                all-in cost immediately available (no hidden costs or surprises)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                alternative payment options available
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                product badges that call out specific features or comparisons
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                additional product details or technical specifications, materials, ingredients, etcpersonal content about real people, including details and expertise
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                focus on who not what
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                contact info
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                offer the option to call
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                you don't we-we all over page
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                good "Scent", high relevance to ad / query
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                ability to add landing pages that are not part of the standard navigationlooks professional, not distractingly ugly, matches expectation for the industry
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                not blatantly out dated
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                makes good use of high value real estate (z-shape across screen)
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                scrollable, not too much crammed above the fold, layout communicates more below
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                no in-page scrollbars or scrollable iframesno obvious or cheesy stock photography
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                appropriate use of faces
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                people in photos looking towards desired user actionvideo under 2 min
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                engaging, informational, entertaining
+                </a>
+            <a class="list-group-item report-card-item">
+                <label class="glyphicon glyphicon-ok pass-fail" aria-hidden="true">
+                    <input type="checkbox" class="checkbox">
+                </label>
+                clear purpose and CTA
+                </a>
+          </div>
+        </div><!-- /.col-md-9 -->
+        <div class="col-md-3">
+            <div id="score">
+                <h2>SCORE: <span class="number"></span></h2>
+            </div>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/report-card.js"></script>
+      <!-- <script src="assets/js/docs.min.js"></script> -->
+    <script src="js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

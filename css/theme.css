@@ -1,0 +1,62 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.report-card {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.glyphicon-ok.pass-fail.selected {
+    color:#618900 !important;
+}
+
+.glyphicon-remove.pass-fail.selected {
+    color: #892800 !important;
+}
+
+.report-card .glyphicon {
+    color: lightgrey;
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.report-card  .glyphicon-ok:hover{
+    color: #618900;
+}
+
+.report-card  .glyphicon-remove:hover{
+    color: #892800;
+}
+
+.report-card .list-group-item {
+    vertical-align: top;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+input[type=checkbox] {
+visibility: hidden;
+}
+
+#score.affix {
+position: fixed;
+top: 30px;
+}
+
+#score.affix-bottom {
+position: absolute;
+}
